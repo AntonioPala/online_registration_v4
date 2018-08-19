@@ -154,6 +154,12 @@ p, label {
   font-size: 1.05rem;
 }
 
+.letter, .selecting,
+.checked, .radio-l,
+.format, .last-label {
+  color: black;
+}
+
 .check, .checked,
 .radio-b, .radio-l {
   font-size: 1.1rem;
@@ -193,7 +199,7 @@ button {
   text-align: center;
   font-size: small;
   font-style: italic;
-  color: #8C9293;
+  color: black;
   margin: 20px 0px 60px 0px;
 }
 
