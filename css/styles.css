@@ -125,6 +125,7 @@ select:focus {
 
 #zip-code {
   display: block;
+  min-width: 0%;
   max-width: 50%;
   height: 40px;
   background-color: lightgrey;
@@ -195,6 +196,10 @@ button {
   padding: 18px 0px 18px 0px;
 }
 
+.last-label {
+  display: block;
+}
+
 .end {
   text-align: center;
   font-size: small;
@@ -255,7 +260,6 @@ button {
   }
 
   .last-label {
-    display: block;
     margin-top: 0px;
   }
 
