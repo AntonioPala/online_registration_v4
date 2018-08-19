@@ -3,10 +3,6 @@ body {
   font-family: Poppins, serif;
 }
 
-.top {
-  background-color: lightblue;
-}
-
 .name {
   margin: 0 auto;
   padding: 25px 35px 25px 35px;
@@ -82,11 +78,13 @@ label {
   background-color: lightgrey;
   border-style: none;
   border-radius: 5px;
+  transition: background 5s;
 }
 
 input:focus, select:focus,
 #zip-code:focus, textarea:focus {
   outline: none;
+  background-color: white;
   border-style: solid;
   border-width: .5px;
   border-color: darkblue;
@@ -136,6 +134,7 @@ select:focus {
 }
 
 .second-fieldset {
+  background-color: #B8B9BA;
   margin-top: 30px;
   border-top: solid;
   border-width: .1em;
@@ -182,7 +181,7 @@ button {
   font-size: 1.2rem;
   font-weight: 700;
   color: white;
-  background-color: #03B4DE;
+  background-color: #85828A;
   border-radius: 5px;
   border-style: none;
   margin-top: 20px;
